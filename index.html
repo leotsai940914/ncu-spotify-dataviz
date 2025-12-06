@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Spotify Line Chart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>不同年齡層的平均聽歌時間折線圖</h1>
+
+    <div class="charts-container">
+
+        <div class="chart-box">
+            <h2>平均聽歌時間（折線圖）</h2>
+            <div id="myGraph" class="graph"></div>
+            <p class="insight">年輕族群聽歌時間較高，是平台高黏著核心客群。</p>
+        </div>
+
+        <div class="chart-box">
+            <h2>跳歌率（折線圖）</h2>
+            <div id="myGraph2" class="graph"></div>
+            <p class="insight">跳歌率在年輕族群偏高，顯示對推薦內容要求更嚴格。</p>
+        </div>
+
+        <div class="chart-box">
+            <h2>每日聽歌次數（折線圖）</h2>
+            <div id="myGraph3" class="graph"></div>
+            <p class="insight">年輕人播放歌曲數最多，顯示探索音樂的程度高。</p>
+        </div>
+
+        <div class="chart-box">
+            <h2>訂閱方案的平均聽歌時間（折線圖）</h2>
+            <div id="myGraph5" class="graph"></div>
+            <p class="insight">付費用戶聽歌時間明顯較長，為主要營收來源。</p>
+        </div>
+
+        <div class="chart-box">
+            <h2>年齡層每週廣告次數（折線圖）</h2>
+            <div id="myGraph6" class="graph"></div>
+            <p class="insight">年輕免費用戶聽到最多廣告，可能增加流失風險。</p>
+        </div>
+
+        <div class="chart-box">
+            <h2>年齡層離線播放使用率（折線圖）</h2>
+            <div id="myGraph7" class="graph"></div>
+            <p class="insight">中年族群離線播放需求較高，適合推離線相關規劃。</p>
+        </div>
+
+        <div class="chart-box">
+            <h2>前十國家平均聽歌時間（折線圖）</h2>
+            <div id="myGraph9" class="graph"></div>
+            <p class="insight">國家使用深度差異大，可制定市場分層行銷策略。</p>
+        </div>
+
+        <div class="chart-box">
+            <h2>裝置類型的平均聽歌時間（折線圖）</h2>
+            <div id="myGraph10" class="graph"></div>
+            <p class="insight">行動裝置佔主要使用情境，應強化手機端體驗。</p>
+        </div>
+
+    </div>
+
+    <script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+    <script src="//unpkg.com/d3"></script>
+    <script src="main.js"></script>
+</body>
+</html>
